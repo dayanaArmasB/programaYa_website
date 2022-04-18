@@ -1,0 +1,337 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Childea', sans-serif;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-snap-align:unset
+}
+
+h1{
+    font-size: 58px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    font-size: 18.5px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color:darkorchid;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgb(104, 16, 166)
+}
+
+.Container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{
+    color: darkorchid;
+    font-weight: bolder;
+}
+
+header{
+    background-color: rgb(245,245,245);
+    position: fixed;
+    width: 100%;
+    opacity: 80%;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: darkorchid;
+    font-size: 30px;
+}
+
+header .Container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+
+header a:hover{
+    color: darkorchid;
+}
+
+#Hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("iamgenes/para-que-sirve-la-programacion-1-compressor.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+}
+
+#Hero h1{
+    color: white;
+}
+
+#Hero button{
+    font-size: 25px;
+}
+
+#Somos-proya .Container{
+    text-align: center;
+    padding: 150px 12px;
+}
+#Somos-proya h2{
+    font-size: 42px;
+    text-align: center;
+}
+
+#Nuestros-programas{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#Nuestros-programas .Container{
+    padding: 150px 12px;
+}
+
+#Nuestros-programas h2{
+    margin-top: 0;
+    font-size: 50px;
+}
+
+#Nuestros-programas p{
+    display: none;
+}
+#Nuestros-programas .Carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 60px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.Carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    )
+    ,url("iamgenes/importancia-de-la-programacion-en-una-empresa.jpg");
+}
+
+.Carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    )
+    ,url("iamgenes/images.jpg");
+}
+
+.Carta:last-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    )
+    ,url("iamgenes/Cursos-Gratuitos-De-Programación-800x425.png");
+}
+
+.Carta p{
+    font-weight: bolder;
+}
+
+#Caracteristicas .Container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 180px 12px;
+}
+
+#Caracteristicas li{
+    margin: 20px 0px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#Final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    height: 80vh;
+
+}
+#Final h2{
+    font-size: 53px;
+}
+
+#Final button{
+    font-size: 22px;
+}
+
+footer{
+    background-color: rgb(230, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p{
+    font-size: 15px;
+    margin: 0;
+    color: rgb(100, 100, 100);
+    padding: 10px;
+}
+
+footer .Container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 720px) {
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    
+    header .Container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #Hero h1{
+        font-size: 65px;
+    }
+
+    #Somos-proya .Container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #Somos-proya .Texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #Somos-proya h2{
+        margin-top: 0px;
+    }
+
+  
+    #Somos-proya .img-Container{
+        background-image: url("iamgenes/descarga.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 600px;
+    }
+
+    #Nuestros-programas .Programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Nuestros-programas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+    #Nuestros-programas h3{
+        margin-top: 20px;
+    }
+
+    #Nuestros-programas .Carta{
+        padding: 60px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5) ;
+    }
+
+    #Caracteristicas{
+        background-image: url("iamgenes/images\ \(1\).jpg");
+        background-repeat: no-repeat;
+        background-size: 500px 450px;
+        background-position: calc(100vw - 550px) 78px;
+    }
+
+    #Caracteristicas .Container{
+        text-align: initial;
+    }
+
+    #Caracteristicas ul{
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    #Caracteristicas{
+        background-position-x: calc(100vw - 800px);
+    }
+}
+
+
