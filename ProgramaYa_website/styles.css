@@ -113,7 +113,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("iamgenes/para-que-sirve-la-programacion-1-compressor.jpg");
+    ,url("imagenes/para-que-sirve-la-programacion-1-compressor.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position:top;
@@ -168,7 +168,7 @@ header a:hover{
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)
     )
-    ,url("iamgenes/importancia-de-la-programacion-en-una-empresa.jpg");
+    ,url("imagenes/importancia-de-la-programacion-en-una-empresa.jpg");
 }
 
 .Carta:nth-child(2){
@@ -177,7 +177,7 @@ header a:hover{
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)
     )
-    ,url("iamgenes/images.jpg");
+    ,url("imagenes/images.jpg");
 }
 
 .Carta:last-child{
@@ -186,7 +186,7 @@ header a:hover{
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)
     )
-    ,url("iamgenes/Cursos-Gratuitos-De-Programación-800x425.png");
+    ,url("imagenes/Cursos-Gratuitos-De-Programación-800x425.png");
 }
 
 .Carta p{
@@ -286,7 +286,7 @@ footer .Container{
 
   
     #Somos-proya .img-Container{
-        background-image: url("iamgenes/descarga.jpg");
+        background-image: url("imagenes/descarga.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -312,7 +312,7 @@ footer .Container{
     }
 
     #Caracteristicas{
-        background-image: url("iamgenes/images\ \(1\).jpg");
+        background-image: url("imagenes/images\ \(1\).jpg");
         background-repeat: no-repeat;
         background-size: 500px 450px;
         background-position: calc(100vw - 550px) 78px;
