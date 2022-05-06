@@ -320,17 +320,19 @@ footer .Container{
 
     #Caracteristicas .Container{
         text-align: initial;
+        justify-content: space-between;
     }
 
     #Caracteristicas ul{
         margin-left: 100px;
+        max-width: 400px;
     }
 }
 
 @media (min-width: 1200px) {
     
     #Caracteristicas{
-        background-position-x: calc(100vw - 800px);
+        background-position-x: calc(100vw - 750px);
     }
 }
 
