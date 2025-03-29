@@ -226,19 +226,22 @@ header a:hover{
 }
 
 footer{
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 
 footer p{
     font-size: 15px;
     margin: 0;
-    color: rgb(100, 100, 100);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     padding: 10px;
 }
 
 footer .Container{
-    height: 150px;
+
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
