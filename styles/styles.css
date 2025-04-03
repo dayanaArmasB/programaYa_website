@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Childea', sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
 }
 
@@ -70,7 +71,7 @@ header{
 
 header .logo{
     margin: 0;
-    padding: 25px 30px;
+    padding: 25px;
     font-weight: bold;
     color: darkorchid;
     font-size: 30px;
@@ -78,14 +79,12 @@ header .logo{
 
 header .Container{
    display: flex;
-   flex-direction: column;
    align-items: center;
+
 }
 
 header nav{
     display: flex;
-    flex-direction:row;
-    text-align: center;
     padding-bottom: 25px;
 }
 
@@ -113,7 +112,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("imagenes/para-que-sirve-la-programacion-1-compressor.jpg");
+    ,url("/img/para-que-sirve-la-programacion-1-compressor.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position:top;
@@ -172,7 +171,7 @@ header a:hover{
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)
     )
-    ,url("imagenes/importancia-de-la-programacion-en-una-empresa.jpg");
+    ,url("/img/importancia-de-la-programacion-en-una-empresa.jpg");
 }
 
 .Carta:nth-child(2){
@@ -181,7 +180,7 @@ header a:hover{
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)
     )
-    ,url("imagenes/images.jpg");
+    ,url("/img/images.jpg");
 }
 
 .Carta:last-child{
@@ -190,7 +189,7 @@ header a:hover{
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)
     )
-    ,url("imagenes/Cursos-Gratuitos-De-Programación-800x425.png");
+    ,url("/img/Cursos-Gratuitos-De-Programación-800x425.png");
 }
 
 .Carta p{
@@ -198,15 +197,13 @@ header a:hover{
 }
 
 #Caracteristicas .Container{
-    text-align: center;
     display: flex;
     flex-direction: column;
     padding: 180px 12px;
 }
 #Caracteristicas .Container h2{
     font-size: 42px;
-    text-align:left;
-    padding-left: 150px;
+    text-align:center;
 }
 
 #Caracteristicas li{
@@ -292,13 +289,14 @@ footer .Container{
         flex-direction: column;
         justify-content: center;
     }
+    
     #Somos-proya h2{
         margin-top: 0px;
     }
 
   
     #Somos-proya .img-Container{
-        background-image: url("imagenes/descarga.jpg");
+        background-image: url("/img/descarga.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -324,7 +322,7 @@ footer .Container{
     }
 
     #Caracteristicas{
-        background-image: url("imagenes/images\ \(1\).jpg");
+        background-image: url("/img/images\ \(1\).jpg");
         background-repeat: no-repeat;
         background-size: 500px 450px;
         background-position: calc(100vw - 550px) 78px;
@@ -333,6 +331,10 @@ footer .Container{
     #Caracteristicas .Container{
         text-align: initial;
         justify-content: space-between;
+    }
+    #Caracteristicas .Container h2{
+        font-size: 42px;
+        text-align:start;
     }
 
     #Caracteristicas ul{
