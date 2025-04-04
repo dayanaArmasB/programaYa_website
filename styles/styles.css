@@ -63,7 +63,7 @@ button:hover{
 }
 
 header{
-    background-color: rgb(245,245,245);
+    background-color: rgba(245, 245, 245, 0.9);
     position: fixed;
     width: 100%;
     opacity: 80%;
@@ -76,7 +76,7 @@ header .logo{
     color: darkorchid;
     font-size: 30px;
 }
-
+/*al ser mobile implementar hamburguer menu*/
 header .Container{
    display: flex;
    align-items: center;
@@ -135,8 +135,9 @@ header a:hover{
     text-align: center;
 }
 #Somos-proya p{
-    font-size: 28px;
+    font-size: 1.5rem;
     text-align: center;
+    padding: 10px;
 }
 
 #Nuestros-programas{
@@ -207,9 +208,9 @@ header a:hover{
 }
 
 #Caracteristicas li{
-    margin: 20px 0px;
     font-weight: bold;
     font-size: 28px;
+    padding: 5px;
 }
 
 #Final{
@@ -231,26 +232,17 @@ header a:hover{
     font-size: 22px;
 }
 
-footer{
-    background-color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
+/* Footer */
+footer {
+    background-color: #fff;
+    text-align: center;
+
 }
 
-footer p{
-    font-size: 15px;
-    margin: 0;
-    color: rgb(0, 0, 0);
+footer p {
+    font-size: 20px;
+    color: #333;
     font-weight: bold;
-    padding: 10px;
-}
-
-footer .Container{
-
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
 }
 
 @media (min-width: 720px) {
@@ -292,6 +284,13 @@ footer .Container{
     
     #Somos-proya h2{
         margin-top: 0px;
+        font-size: 42px;
+    }
+
+    #Somos-proya p{
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
     }
 
   
@@ -312,9 +311,6 @@ footer .Container{
         display: block;
         margin-bottom: 30px;
     }
-    #Nuestros-programas h3{
-        margin-top: 20px;
-    }
 
     #Nuestros-programas .Carta{
         padding: 60px;
@@ -325,7 +321,7 @@ footer .Container{
         background-image: url("/img/images\ \(1\).jpg");
         background-repeat: no-repeat;
         background-size: 500px 450px;
-        background-position: calc(100vw - 550px) 78px;
+        background-position: calc(100vw - 550px) 120px;
     }
 
     #Caracteristicas .Container{
@@ -338,7 +334,6 @@ footer .Container{
     }
 
     #Caracteristicas ul{
-        margin-left: 100px;
         max-width: 400px;
     }
 }
