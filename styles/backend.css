@@ -195,4 +195,10 @@ footer p {
         font-size: 1.4rem;
         margin-top: 50px;
     }
+    .btn-volver-principal {
+        display: inline-block;
+        margin-top: 110px;
+        margin-left: 50px;
+        
+    }
 }
