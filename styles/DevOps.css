@@ -1,0 +1,204 @@
+/* Importar fuente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilos generales */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-snap-align:unset
+}
+
+.Container {
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+header{
+    background-color: rgba(245, 245, 245, 0.9);
+    position: fixed;
+    width: 100%;
+    opacity: 80%;
+}
+
+
+header .logo{
+    margin: 0;
+    padding: 25px;
+    font-weight: bold;
+    color: darkorchid;
+    font-size: 30px;
+}
+/*al ser mobile implementar hamburguer menu*/
+header .Container{
+    display: flex;
+    align-items: center;
+ 
+ }
+
+ header nav{
+    display: flex;
+
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+
+header a:hover {
+    color: #7b2cbf;
+}
+.btn-volver-principal {
+    display: inline-block;
+    margin-top: 110px;
+    margin-left: 20px;
+    background-color: #5a189a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-volver-principal:hover {
+    background-color: #7b2cbf;
+}
+/* Sección Programa-detalle */
+#Programa-detalle {
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0 10px 25px ;
+}
+
+#Programa-detalle .Container {
+    max-width: 900px;
+}
+
+#Programa-detalle h1 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#Programa-detalle p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+#Programa-detalle h2 {
+    font-size: 2rem;
+    color: #7b2cbf;
+    margin-top: 30px;
+}
+
+#Programa-detalle ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#Programa-detalle ul li {
+    font-size: 1.2rem;
+    color: #444;
+    background: #e3f2fd;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+#Programa-detalle button {
+    background: #7b2cbf;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#Programa-detalle button:hover {
+    background: #5a189a;
+}
+
+/* Footer */
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer p {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+
+}
+
+/* Estilos específicos para pantallas grandes */
+@media (min-width: 720px) {
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    
+    header .Container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 10px;
+    }
+
+    #Programa-detalle .Container {
+        max-width: 1000px;
+        padding: 0 50px;
+    }
+
+    #Programa-detalle h1 {
+        font-size: 3rem;
+    }
+
+    #Programa-detalle h2 {
+        font-size: 2.2rem;
+    }
+
+    #Programa-detalle p {
+        font-size: 1.3rem;
+    }
+
+    #Programa-detalle ul li {
+        font-size: 1.3rem;
+        padding: 14px;
+    }
+
+    #Programa-detalle button {
+        font-size: 1.4rem;
+        margin-top: 50px;
+    }
+    .btn-volver-principal {
+        display: inline-block;
+        margin-top: 110px;
+        margin-left: 50px;
+        
+    }
+}
