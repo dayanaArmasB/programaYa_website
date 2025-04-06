@@ -46,7 +46,7 @@ header .Container{
 
  header nav{
     display: flex;
-    padding-bottom: 25px;
+
 }
 
 header a{
@@ -59,18 +59,33 @@ header a{
 header a:hover {
     color: #7b2cbf;
 }
+.btn-volver-principal {
+    display: inline-block;
+    margin-top: 110px;
+    margin-left: 20px;
+    background-color: #5a189a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-volver-principal:hover {
+    background-color: #7b2cbf;
+}
 
 /* Sección Programa-detalle */
 #Programa-detalle {
     background-color: #ffffff;
     text-align: center;
     border-radius: 10px;
-    padding: 25px ;
+    padding: 0 10px 25px ;
 }
 
 #Programa-detalle .Container {
     max-width: 900px;
-    padding-top: 50px;
 }
 
 #Programa-detalle h1 {
@@ -152,12 +167,12 @@ footer p {
     header nav{
         flex-direction: row;
         padding-bottom: 0;
-        padding-right: 20px;
+        padding-right: 10px;
     }
 
     #Programa-detalle .Container {
         max-width: 1000px;
-        padding: 50px;
+        padding: 0 50px;
     }
 
     #Programa-detalle h1 {
