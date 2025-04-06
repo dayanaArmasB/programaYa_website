@@ -85,7 +85,6 @@ header .Container{
 
 header nav{
     display: flex;
-    padding-bottom: 25px;
 }
 
 header a{
@@ -120,15 +119,13 @@ header a:hover{
 
 #Hero h1{
     color: white;
+    padding: 15px;
 }
 
-#Hero button{
-    font-size: 25px;
-}
 
 #Somos-proya .Container{
     text-align: center;
-    padding: 150px 12px;
+    padding: 100px 12px;
 }
 #Somos-proya h2{
     font-size: 42px;
@@ -200,7 +197,7 @@ header a:hover{
 #Caracteristicas .Container{
     display: flex;
     flex-direction: column;
-    padding: 180px 12px;
+    padding: 120px 20px;
 }
 #Caracteristicas .Container h2{
     font-size: 42px;
@@ -295,7 +292,7 @@ footer p {
 
   
     #Somos-proya .img-Container{
-        background-image: url("/img/descarga.jpg");
+        background-image: url("/img/25001216_7040861.svg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -318,19 +315,21 @@ footer p {
     }
 
     #Caracteristicas{
-        background-image: url("/img/images\ \(1\).jpg");
+        background-image: url("/img/229383837_11062295.svg");
         background-repeat: no-repeat;
-        background-size: 500px 450px;
-        background-position: calc(100vw - 550px) 120px;
+        background-size: 550px 450px;
+        background-position:  50px;
     }
 
     #Caracteristicas .Container{
         text-align: initial;
+        align-content: flex-start;
         justify-content: space-between;
     }
     #Caracteristicas .Container h2{
         font-size: 42px;
         text-align:start;
+        margin-left: 50px;
     }
 
     #Caracteristicas ul{
